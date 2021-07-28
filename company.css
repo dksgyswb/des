@@ -1,0 +1,111 @@
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    margin: 0;
+}
+*{box-sizing: border-box;}
+.a-0 > h1{
+    color: #86e57f;
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+
+.a-0 {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 0 10%;
+}
+.a-0 > h1{
+    color: #86e57f;
+    font-size: 36px;
+    margin: 10px 0;
+}
+#Menu {width: 80%;}
+    #Menu >ul > li{
+
+    }
+    #Menu > ul{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    #Menu > ul > li {
+        
+        list-style-type:none;
+        text-align: center;
+        position: relative;
+    }
+    #Menu > ul ul {
+        display:none;}
+        /* float:right;} */
+    #Menu > ul> li > a {
+        height:30px;
+        color:#000000;
+        font-family:arial;
+        font-size:18px;
+        padding:0 10px 0 10px;        
+        text-decoration:none;
+    }
+    #Menu a:hover {
+        color:#000000;
+        border-bottom:3px solid #86e57f;
+    }
+    #Menu ul li:hover ul{
+        display: block;
+    }
+    #Menu ul ul {
+        display:none;
+        position:absolute;    
+        left: 0;
+        background-color:rgba(255, 255, 255, 0.6);
+        width: 100%;
+    }
+    
+    #nav_menu ul ul li {
+        float:none;    
+    }
+    .b-1 img{
+        width: 100%;}
+    .b-2{
+        text-align: center;
+        margin: 80px 0;
+    }
+    .b-3{
+        text-align: left;
+        padding-bottom: 40px;
+    }
+    .b-4{
+        text-align: center;
+    }
+    .b-5{
+        text-align: center;
+        margin: 80px 0;
+    }
+    .b-6{
+        display: flex;
+        align-items: flex-start;
+    }
+    .p{}
+    .b-7{
+        margin: 80px 0;
+    }
+    .a-14{
+        background-color: rgb(167, 167, 167);
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .a-14 strong{
+        font-size: 30px;
+    }
