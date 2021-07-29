@@ -83,6 +83,8 @@ body{
     .b-3{
         text-align: left;
         padding-bottom: 40px;
+        position: relative;
+        left: 200px;
     }
     .b-4{
         text-align: center;
@@ -93,11 +95,17 @@ body{
     }
     .b-6{
         display: flex;
-        align-items: flex-start;
+        /* align-items: flex-start; */
+        position: relative;
+        left: 200px;
     }
     .p{}
     .b-7{
         margin: 80px 0;
+        display: flex;
+        /* align-items: flex-start; */
+        position: relative;
+        left: 200px;
     }
     .a-14{
         background-color: rgb(167, 167, 167);
